@@ -6,5 +6,4 @@ read ouiNon
 if [[ "$ouiNon" = *"y"* ]];then
     touch $nomFichier
 else
-    echo "le fichier n'a pas été créé"
-fi
+    echo "le fichier n'a pas été créé"; fi
